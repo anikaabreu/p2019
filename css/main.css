@@ -1,0 +1,107 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+}
+
+.introScreen {
+  background: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.projects div:nth-of-type(1) {
+  -webkit-animation-delay: 0.33333s;
+          animation-delay: 0.33333s;
+}
+
+.projects div:nth-of-type(2) {
+  -webkit-animation-delay: 0.36667s;
+          animation-delay: 0.36667s;
+}
+
+.projects div:nth-of-type(3) {
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+}
+
+.projects div:nth-of-type(4) {
+  -webkit-animation-delay: 0.43333s;
+          animation-delay: 0.43333s;
+}
+
+.projects div:nth-of-type(5) {
+  -webkit-animation-delay: 0.46667s;
+          animation-delay: 0.46667s;
+}
+
+.projects div:nth-of-type(6) {
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
+}
+
+.projects div:nth-of-type(7) {
+  -webkit-animation-delay: 0.53333s;
+          animation-delay: 0.53333s;
+}
+
+.projects div:nth-of-type(8) {
+  -webkit-animation-delay: 0.56667s;
+          animation-delay: 0.56667s;
+}
+
+.projects div:nth-of-type(9) {
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.projects div:nth-of-type(10) {
+  -webkit-animation-delay: 0.63333s;
+          animation-delay: 0.63333s;
+}
+
+.projects div:nth-of-type(11) {
+  -webkit-animation-delay: 0.66667s;
+          animation-delay: 0.66667s;
+}
+
+.projects div:nth-of-type(12) {
+  -webkit-animation-delay: 0.7s;
+          animation-delay: 0.7s;
+}
+
+.projects div:nth-of-type(13) {
+  -webkit-animation-delay: 0.73333s;
+          animation-delay: 0.73333s;
+}
+
+.projects div:nth-of-type(14) {
+  -webkit-animation-delay: 0.76667s;
+          animation-delay: 0.76667s;
+}
+
+.projects div:nth-of-type(15) {
+  -webkit-animation-delay: 0.8s;
+          animation-delay: 0.8s;
+}
+
+@-webkit-keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/*# sourceMappingURL=main.css.map */

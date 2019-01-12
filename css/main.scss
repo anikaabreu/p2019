@@ -1,0 +1,44 @@
+$white : white;
+$height: 100vh;
+$width: 100vw;
+$font-stack: 'Raleway',
+sans-serif;
+;
+$primary-color: #333;
+
+$light: 300;
+$normal: 400;
+$semibold: 500;
+$bold: 700;
+
+body {
+    width: $width;
+    height: $height;
+    background: $white;
+    font-family: $font-stack;
+    font-weight: $normal;
+}
+
+.introScreen {
+background: $white;
+width: $width;
+height: $height;
+}
+
+$animationDelay: 1;
+
+@for $i from 1 through 15 {
+    .projects div:nth-of-type(#{$i}) {
+        animation-delay: #{0.3+($i)/30}s;
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
